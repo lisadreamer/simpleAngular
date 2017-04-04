@@ -1,0 +1,11 @@
+<div class="photo">
+  <div class="container">
+    
+    <h2 class="photo-title">{{ detail.title }} </h2>
+    
+    <p class="photo-author"> </p>
+    <div ng-repeat="item in detail.list" class="col-md-6">
+        <img class="thumbnail" ng-src="{{ item.image }}" >
+    </div>
+  </div>
+</div>
